@@ -7,7 +7,7 @@ import (
 )
 
 func ConnDB() *sql.DB {
-	conn := "user=postgres dbname=my_store password=Viitmane93 host=localhost sslmode=disable"
+	conn := "user=postgres dbname=my_store password=123456 host=localhost sslmode=disable"
 	db, err := sql.Open("postgres", conn)
 
 	if err != nil {
